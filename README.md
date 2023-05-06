@@ -41,3 +41,9 @@ To install Oh My Zsh run the following command:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Docs: [Oh My Zsh documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
+
+## PowerLevel10K Theme for Oh My Zsh
+Run this to install PowerLevel10K:
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
