@@ -10,3 +10,4 @@ vlc
 visual-studio-code
 sublime-text
 thunderbird
+stats
