@@ -8,6 +8,12 @@ Open the built in terminal and paste the command:
 ```
 This will also install the `xcode build tools` which is needed by other developer tools.
 
+After homebrew is installed, run the following commands to add it to the `PATH`:
+```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 ## iTerm2
 
 Next, install `iTerm2` using brew in the built in terminal like so:
@@ -22,21 +28,16 @@ Once installed, open settings using `cmd + ,`:
 
 Docs: [iTerm2 Documentation](https://iterm2.com/documentation.html)
 
-## Bash
+## Git
 
-To install `bash` shell, run:
+To install `git` run:
 ```
-brew install bash
+brew install git
 ```
-To see the location where bash is installed, run the command:
+
+## Oh My Zsh
+To install Oh My Zsh run the following command:
 ```
-which bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-If the directory is anything else other than `/bin/bash`, add it to the `/etc/shells` file using the command:
-```
-sudo nano /etc/shells
-```
-Now, we can set it as our default shell:
-```
-chsh -s /bin/bash
-```
+Docs: [Oh My Zsh documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
