@@ -17,5 +17,26 @@ brew install iterm2
 Once installed, open settings using `cmd + ,`:
 1. Appearance -> Theme -> Minimal
 2. Profiles -> Default
+    - Reuse previous session's directory
+    - Keys -> Key Mappings -> Presets -> Natural Text Editing
 
 Docs: [iTerm2 Documentation](https://iterm2.com/documentation.html)
+
+## Bash
+
+To install `bash` shell, run:
+```
+brew install bash
+```
+To see the location where bash is installed, run the command:
+```
+which bash
+```
+If the directory is anything else other than `/bin/bash`, add it to the `/etc/shells` file using the command:
+```
+sudo nano /etc/shells
+```
+Now, we can set it as our default shell:
+```
+chsh -s /bin/bash
+```
