@@ -47,3 +47,9 @@ Run this to install PowerLevel10K:
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
+
+# Casks
+Install cask apps with this command:
+```
+xargs brew install < brew-casks.txt
+```
