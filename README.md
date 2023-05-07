@@ -59,7 +59,7 @@ To install `nvm` run the following command to download and install the script:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
-To find the latest LTS `Node.js` release type the command
+To find the latest LTS `Node.js` release type the command:
 ```
 nvm ls-remote
 ```
