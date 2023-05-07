@@ -10,3 +10,4 @@ sublime-text
 thunderbird
 stats
 itsycal
+obsidian
