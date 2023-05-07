@@ -44,16 +44,5 @@ Install all the listed apps in the [brew-casks.txt](https://github.com/adreaskar
 xargs brew install < brew-casks.txt
 ```
 
-# NVM
-To install `nvm` run:
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-```
-To find the latest LTS `Node.js` release type the command:
-```
-nvm ls-remote
-```
-And then install it with:
-```
-nvm install [version-number]
-```
+# Dev Setup
+Install development tools as shown in [DEV-SETUP.md](https://github.com/adreaskar/mac-setup/blob/master/DEV-SETUP.md)
