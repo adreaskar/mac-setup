@@ -49,7 +49,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 ```
 
 # Casks
-Install cask apps with this command:
+Install all the listed cask apps in the `brew-casks.txt` file in this repo with the command:
 ```
 xargs brew install < brew-casks.txt
 ```
