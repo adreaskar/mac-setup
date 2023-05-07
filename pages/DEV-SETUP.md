@@ -11,3 +11,9 @@ And then install it with:
 ```
 nvm install [version-number]
 ```
+
+# Python
+To install the latest `python` version run:
+```
+brew install python
+```
