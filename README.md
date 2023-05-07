@@ -38,7 +38,7 @@ brew install git
 # Shell Prompt
 Install the shell prompt of choice as shown in [SHELL-PROMPTS.md](https://github.com/adreaskar/mac-setup/blob/master/pages/SHELL-PROMPTS.md)
 
-# Casks
+# Apps
 Install all the listed apps in the [brew-casks.txt](https://github.com/adreaskar/mac-setup/blob/master/brew-casks.txt) file  with the command:
 ```
 xargs brew install < brew-casks.txt
