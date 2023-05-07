@@ -35,14 +35,8 @@ To install `git` run:
 brew install git
 ```
 
-# Shell Prompts
+# Shell Prompt
 Install the shell prompt of choice as shown in [SHELL-PROMPTS.md](https://github.com/adreaskar/mac-setup/edit/master/SHELL-PROMPTS.md)
-
-# PowerLevel10K Theme for Oh My Zsh
-To install PowerLevel10K theme run:
-```
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-```
 
 # Casks
 Install all the listed cask apps in the `brew-casks.txt` file in this repo with the command:
