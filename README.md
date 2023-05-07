@@ -36,14 +36,14 @@ brew install git
 ```
 
 # Oh My Zsh
-To install Oh My Zsh run the following command:
+To install Oh My Zsh run:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Docs: [Oh My Zsh documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 
 # PowerLevel10K Theme for Oh My Zsh
-Run this to install PowerLevel10K:
+To install PowerLevel10K theme run:
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
@@ -55,7 +55,7 @@ xargs brew install < brew-casks.txt
 ```
 
 # NVM
-To install `nvm` run the following command to download and install the script:
+To install `nvm` run:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
