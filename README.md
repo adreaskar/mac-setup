@@ -1,4 +1,4 @@
-## Homebrew
+# Homebrew
 
 First step is to install [Homebrew](https://brew.sh/)
 
@@ -14,7 +14,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-## iTerm2
+# iTerm2
 
 Next, install `iTerm2` using brew in the built in terminal like so:
 ```
@@ -28,21 +28,21 @@ Once installed, open settings using `cmd + ,`:
 
 Docs: [iTerm2 Documentation](https://iterm2.com/documentation.html)
 
-## Git
+# Git
 
 To install `git` run:
 ```
 brew install git
 ```
 
-## Oh My Zsh
+# Oh My Zsh
 To install Oh My Zsh run the following command:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Docs: [Oh My Zsh documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 
-## PowerLevel10K Theme for Oh My Zsh
+# PowerLevel10K Theme for Oh My Zsh
 Run this to install PowerLevel10K:
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
