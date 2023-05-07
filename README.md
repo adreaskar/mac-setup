@@ -35,12 +35,8 @@ To install `git` run:
 brew install git
 ```
 
-# Oh My Zsh
-To install Oh My Zsh run:
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-Docs: [Oh My Zsh documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
+# Shell Prompts
+Install the shell prompt of choice as shown in [SHELL-PROMPTS.md](https://github.com/adreaskar/mac-setup/edit/master/SHELL-PROMPTS.md)
 
 # PowerLevel10K Theme for Oh My Zsh
 To install PowerLevel10K theme run:
