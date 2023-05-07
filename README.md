@@ -36,7 +36,7 @@ brew install git
 ```
 
 # Shell Prompt
-Install the shell prompt of choice as shown in [SHELL-PROMPTS.md](https://github.com/adreaskar/mac-setup/edit/master/SHELL-PROMPTS.md)
+Install the shell prompt of choice as shown in [SHELL-PROMPTS.md](https://github.com/adreaskar/mac-setup/edit/master/pages/SHELL-PROMPTS.md)
 
 # Casks
 Install all the listed apps in the [brew-casks.txt](https://github.com/adreaskar/mac-setup/blob/master/brew-casks.txt) file  with the command:
@@ -45,4 +45,4 @@ xargs brew install < brew-casks.txt
 ```
 
 # Dev Setup
-Install development tools as shown in [DEV-SETUP.md](https://github.com/adreaskar/mac-setup/blob/master/DEV-SETUP.md)
+Install development tools as shown in [DEV-SETUP.md](https://github.com/adreaskar/mac-setup/blob/master/pages/DEV-SETUP.md)
