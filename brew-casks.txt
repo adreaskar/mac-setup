@@ -1,9 +1,7 @@
-iterm2
 firefox-developer-edition
 rectangle
 alt-tab
 alfred
-app-cleaner
 discord
 slack
 vlc
