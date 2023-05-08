@@ -17,3 +17,12 @@ To install the latest `python` version run:
 ```
 brew install python
 ```
+Then install `virtualenv` using the command:
+```
+pip3 install virtualenv
+```
+Now inside a project directory run the following to instanciate and activate a venv:
+```
+python3 -m virtualenv venv
+source venv/bin/activate
+```
