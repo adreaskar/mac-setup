@@ -11,3 +11,4 @@ thunderbird
 stats
 itsycal
 obsidian
+topnotch
