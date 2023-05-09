@@ -12,3 +12,4 @@ stats
 itsycal
 obsidian
 topnotch
+karabiner-elements
