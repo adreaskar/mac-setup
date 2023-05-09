@@ -13,3 +13,4 @@ itsycal
 obsidian
 topnotch
 karabiner-elements
+fliqlo
