@@ -52,7 +52,8 @@ In order to change language input source in a more convenient way, i use `karabi
 4. This file creates a rule to map `Cmd + Shift` to `Cmd + E` thus changing input source.
 5. After that, open karabiner-elements app and go to: Complex Modifications -> Rules -> Add rule and Enable Languages -> Command + Shift to Command + e.
 
-# 𝗙𝗮𝘀𝘁𝗲𝗿 𝗗𝗼𝗰𝗸 𝗛𝗶𝗱𝗶𝗻𝗴 terminal commands
+# 𝗙𝗮𝘀𝘁𝗲𝗿 𝗗𝗼𝗰𝗸 𝗛𝗶𝗱𝗶𝗻𝗴
+For me the default dock behaviour is quite slow, so i use this terminal command to change it:
 ```
 defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 1;killall Dock
 ```
