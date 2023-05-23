@@ -14,3 +14,4 @@ obsidian
 topnotch
 karabiner-elements
 fliqlo
+shottr
