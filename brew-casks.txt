@@ -15,3 +15,4 @@ topnotch
 karabiner-elements
 fliqlo
 shottr
+obs
